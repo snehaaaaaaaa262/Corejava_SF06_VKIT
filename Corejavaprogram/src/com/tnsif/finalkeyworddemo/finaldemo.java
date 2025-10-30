@@ -1,14 +1,10 @@
 package com.tnsif.finalkeyworddemo;
 
-public final class finaldemo {
+public class Demo extends finaldemo{
 	
-	final static int a=8; 
-
-	static {
-		a=9;
-	}
-	final void display() { 
-		System.out.println("welcome to java");
+	@Override
+void display() {
+	System.out.println("welcome to python");
 	}
 
 }
