@@ -1,8 +1,8 @@
 package com.tnsif.accessmodifierdemo;
 
 public class Accessdemo {
-	int a=9;
-	String s="guru";
+	public int a=9;
+	public String s="guru";
 	
 	public void display() {
 		System.out.println("welcome to java");
